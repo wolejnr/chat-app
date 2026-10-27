@@ -21,4 +21,4 @@ io.on('connection', (socket) => {
     })
 })
 
-server.listen(PORT, '10.0.0.85', () => console.log(`Server running on http://localhost:${PORT}`))
+server.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`))
